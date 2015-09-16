@@ -19,7 +19,7 @@ module.exports = function(grunt) {
         watch: {
           css: {
             files: 'src/*.css',
-            tasks: ['postcss ']
+            tasks: ['postcss']
           },
         },
         connect: {
