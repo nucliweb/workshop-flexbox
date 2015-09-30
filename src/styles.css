@@ -19,7 +19,6 @@ body {
 
 
 .first-face {
-  display: flex;
   justify-content: center;
   align-items: center;
 }
@@ -27,6 +26,7 @@ body {
 
 
 [class$="face"] {
+  display: flex;
   margin: 16px;
   padding: 10px;
 
